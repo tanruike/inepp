@@ -3,7 +3,6 @@ package com.inepp.service.residents.service.impl;
 import com.inepp.common.dto.RespEnum;
 import com.inepp.common.exception.security.EmptyAccountException;
 import com.inepp.common.exception.security.ResidentsExistException;
-import com.inepp.common.util.Constants;
 import com.inepp.common.util.Encryption;
 import com.inepp.domain.dao.IAccountDao;
 import com.inepp.domain.dao.IResidentDao;
@@ -17,7 +16,6 @@ import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Date;
 
 /**
  * @ClassName: ResidentsServiceImpl
